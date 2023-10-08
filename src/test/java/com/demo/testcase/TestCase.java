@@ -22,7 +22,7 @@ public class TestCase extends TestUtil {
 
 
     @Test
-    public void testLoginSuccess(DataProvider data,String url){
+    public void testLoginSuccess(){
         System.out.println("Test Login Success!");
     }
 
