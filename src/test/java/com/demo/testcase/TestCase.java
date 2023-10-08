@@ -18,20 +18,15 @@ public class TestCase extends TestUtil {
     public void beforeMe(){
         System.out.println("before method!");
     }
-
-
-
     @Test
     public void testLoginSuccess(){
         System.out.println("Test Login Success!");
     }
-
     @Test
     public void testLoginFail(){
         System.out.println("Test Login Fail!");
         Assert.assertEquals(10,10);
     }
-
     @AfterMethod
     public void afterMe(){
         System.out.println("after method!");
